@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/spacing_normal"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_medium"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnNegative"
+            style="@style/primary_button"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/spacing_normal"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnPositive"
+            style="@style/primary_button"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/spacing_normal"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

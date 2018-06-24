@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_small"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivVenuePic"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/restaurant" />
+
+        <TextView
+            android:id="@+id/tvVenueName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:textAppearance="@style/CustomTextAppearance.Bold"
+            tools:text="Name : Gourmet 69" />
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/llDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvVenueCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:textAppearance="@style/CustomTextAppearance"
+            tools:text="Location : Gourmet 69" />
+
+        <TextView
+            android:id="@+id/tvVenueState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:textAppearance="@style/CustomTextAppearance"
+            tools:text="Location : Gourmet 69" />
+
+        <TextView
+            android:id="@+id/tvVenueCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:textAppearance="@style/CustomTextAppearance"
+            tools:text="Location : Gourmet 69" />
+
+        <TextView
+            android:id="@+id/tvVenueCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_small"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:textAppearance="@style/CustomTextAppearance"
+            tools:text="Location : Gourmet 69" />
+
+        <ImageView
+            android:id="@+id/ivVenueUser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:scaleType="centerCrop"
+            android:src="@drawable/explore2"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

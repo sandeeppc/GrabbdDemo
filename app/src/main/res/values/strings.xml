@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">GrabbdDemo</string>
+    <!-- Network error messages -->
+    <string name="error_unexpected_error">Something went wrong. Please try again later</string>
+    <string name="error_bad_connection_try_again">Bad connectivity, please try again</string>
+    <string name="error_remote_server_failed">Application server could not respond. Please try later</string>
+    <string name="error_paring">Parsing error</string>
+    <string name="error_internet_not_connected">Please check your internet connection or try again later.</string>
+    <string name="error_device_rooted">This device is rooted. We are not responsible for any kind of data loss and hack. Use it at your own risk!!</string>
+    <string name="error_fb_login_failed">Facebook Login failed!!</string>
+    <string name="error_session_expired">Session expired.</string>
+
+    <!-- Error messages -->
+    <string name="error_not_a_valid_image_file">File is not a valid image.</string>
+
+    <!-- Image Chooser -->
+    <string name="text_cancel">Cancel</string>
+    <string name="text_camera">Camera</string>
+    <string name="text_setting">Settings</string>
+    <string name="text_gallery">Gallery</string>
+    <string name="text_multiple">Multiple</string>
+    <string name="text_choose_image">Choose Image</string>
+    <string name="permission_camera_storage_msg">Permissions are required for camera &amp; storage.</string>
+    <string name="permission_camera_storage_denied_msg">Permissions denied. Please grant permission for camera &amp; storage in setting.</string>
+
+    <!-- Dialog -->
+    <string name="text_retry">Retry</string>
+    <string name="text_exit">Exit</string>
+    <string name="text_ok">Ok</string>
+    <string name="text_proceed">Proceed</string>
+    <string name="text_loading">Loading…</string>
+    <string name="text_update">Update</string>
+
+    <!-- Sign In -->
+    <string name="error_invalid_email">Please enter valid email address.</string>
+    <string name="error_invalid_password">Please enter valid password.</string>
+    <string name="txt_sign_in">Sign In</string>
+    <string name="txt_hint_enter_email_id">Enter Email ID</string>
+    <string name="txt_hint_enter_password">Password</string>
+    <string name="text_start_tutorial_msg">Welcome to MVP Base Project.
+        \n\n<b>1.</b> Change applicationId in app gradle.
+        \n<b>2.</b> Change app name from app gradle.
+        \n<b>3.</b> Replace google-services.json file.
+    </string>
+    <string name="category_explore">Explore</string>
+    <string name="category_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_search">Search</string>
+    <string name="explore">Explore</string>
+    <string name="msg_location">Please grant location permission!!</string>
+    <string name="label_city">City :</string>
+    <string name="label_state">State :</string>
+    <string name="label_country">Country :</string>
+    <string name="msg_no_result">Opps!! No Result Found?!</string>
+    <string name="msg_new_explore">What do you want to explore?</string>
+    <string name="label_go">GO</string>
+    <string name="hint_what_do_you_want">What do you want?</string>
+    <string name="msg_search_your_area">Search your Area!!</string>
+    <string name="msg_no_search">No search result found. Try changing your query or location!</string>
+    <string name="title_food">FOOD</string>
+    <string name="title_drinks">DRINKS</string>
+    <string name="title_coffee">COFFEE</string>
+    <string name="title_shop">SHOPS</string>
+    <string name="title_arts">ARTS</string>
+    <string name="title_outdoors">OUTDOORS</string>
+    <string name="title_sights">SIGHTS</string>
+    <string name="title_trending">TRENDING</string>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- font sizes -->
+    <dimen name="font_xxxlarge">24sp</dimen>
+    <dimen name="font_xxlarge">20sp</dimen>
+    <dimen name="font_xlarge">18sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_xsmall">10sp</dimen>
+
+
+    <!-- typical spacing between two views -->
+    <dimen name="spacing_xlarge">40dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">20dp</dimen>
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_xsmall">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_very_tiny">2dp</dimen>
+
+
+    <!-- Custom views dimen -->
+    <dimen name="dialog_progress_wheel_width_height">70dp</dimen>
+    <dimen name="screen_padding">@dimen/spacing_normal</dimen>
+    <dimen name="progress_wheel_radius">60dp</dimen>
+
+
+    <!--met editext-->
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="post_image_height">250dp</dimen>
+    <dimen name="empty_nav_view_height">25dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+
+
+</resources>

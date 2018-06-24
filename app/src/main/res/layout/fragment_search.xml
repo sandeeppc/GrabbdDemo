@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/ivHeaderImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/spacing_small"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pizza"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/tvHeaderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/spacing_small"
+        android:drawableStart="@drawable/ic_map"
+        android:elevation="@dimen/spacing_large"
+        android:padding="@dimen/spacing_large"
+        android:text="@string/title_search"
+        android:textAppearance="@style/CustomTextAppearance.Bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_xxxlarge"
+        tools:ignore="UnusedAttribute" />
+
+    <ImageView
+        android:id="@+id/ivCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/spacing_small"
+        android:elevation="@dimen/spacing_large"
+        app:srcCompat="@drawable/ic_my_location"
+        tools:targetApi="lollipop"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ivHeaderImage"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tvKeyword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_30dp"
+                android:layout_marginLeft="@dimen/_30dp"
+                android:layout_marginRight="@dimen/_30dp"
+                android:layout_marginStart="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_weight="1"
+                android:background="@drawable/boundary_white_fill"
+                android:elevation="@dimen/_10dp"
+                android:gravity="center_vertical"
+                android:hint="@string/hint_what_do_you_want"
+                android:padding="@dimen/_10dp"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/font_normal"
+                tools:targetApi="lollipop"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@drawable/background_text_selector_on_click"
+                android:text="@string/label_go" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvNoResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/spacing_large"
+            android:text="@string/msg_no_result"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/spacing_large"
+            android:text="@string/msg_search_your_area" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_10dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

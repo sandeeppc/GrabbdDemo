@@ -1,0 +1,10 @@
+{
+  "statusCode": 200,
+  "message": "Success",
+  "data": {
+    "latestAndroidVersion": 100,
+    "criticalAndroidVersion": 100,
+    "updateMessageAtPopup": "There is newer version of this app available.",
+    "updateTitleAtPopup": "Takumi Holidays Update"
+  }
+}

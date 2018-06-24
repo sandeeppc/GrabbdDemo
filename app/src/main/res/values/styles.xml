@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- The launcher theme. It sets the main window background to the launch_screen drawable -->
+    <style name="AppTheme.Launcher">
+    <item name="android:windowBackground">@drawable/launch_screen</item>
+    <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+    <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
+    <style name="CustomTextAppearance" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/OpenSans-Regular.ttf</item>
+    </style>
+
+    <!--Custom bold text appearance-->
+    <style name="CustomTextAppearance.Bold" parent="CustomTextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/OpenSans-Bold.ttf</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Custom semibold text appearance-->
+    <style name="CustomTextAppearance.Semibold" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/OpenSans-Semibold.ttf</item>
+    </style>
+
+    <style name="primary_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/background_button_selector_primary_color</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_xlarge</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="SlidingTabs">
+        <item name="tabTextColor">#f32323</item>
+        <item name="tabSelectedTextColor">#2323f3</item>
+        <item name="tabIndicatorColor">#f32323</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding">
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:hint="@string/txt_hint_enter_email_id"
+        android:inputType="textEmailAddress" />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:hint="@string/txt_hint_enter_password"
+        android:inputType="textPassword" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnSignIn"
+        style="@style/primary_button"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="@string/txt_sign_in" />
+
+</android.support.v7.widget.LinearLayoutCompat>
